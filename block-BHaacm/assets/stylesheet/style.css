@@ -52,7 +52,8 @@ table {
 body { font-family: 'Roboto', sans-serif;}
 html { font-size: 16px;}
 
-.container { max-width: 75rem;
+.container { max-width: 1200px;
+    width:100%;
 margin: 0 auto;}
 
 .padding { padding: 2rem 0; }
@@ -131,14 +132,36 @@ font-size: 1.4rem;}
 
 .footer small{ color: grey;}
 
-.footer li { color: grey;
+.footer li a{ color: grey;
 margin-right: 2rem;}
 
 @media screen and (max-width:768px){
 
+    
+
 html { font-size: 12px;}
 
-header  .flex { flex-direction: column;}
+
+
+.flex-100{
+    flex:0 1 100%;
+    margin: 2rem 0;
+    padding: 0 2rem;
+}
+
+.wrap { flex-wrap: wrap;}
+
+.order-1{ order: 1;}
+
+.coloum { flex-direction: column;
+}
+
+.brand { padding-bottom:2rem ;}
+
+.footer-icon {padding: 2rem 0;}
+
+
+/*header  .flex { flex-direction: column;}
 
 nav .flex { flex-direction: row;
 padding: 2rem 0;}
@@ -168,6 +191,6 @@ padding: 1rem 0;}
 font-size: 2.3rem;}
 
 .footer .footer-icon { flex-direction: row;
-padding: 1.4rem 0;}
+padding: 1.4rem 0;}*/
 
 }
